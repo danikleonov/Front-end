@@ -1,0 +1,102 @@
+body{
+	background-color: #333;
+}
+.canvas{
+	border: 1px solid #000;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+}
+
+h1{
+	color: #fff;
+	font-family: 'Liberation Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -3px;
+}
+
+h2{
+	margin: 0;
+	padding: 0;
+	display: block;
+	font-family: 'Liberation Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	color: #ab4b4b;
+
+}
+h1 span{
+	color: #ab4b4b;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+
+}
+.head-title{
+	text-align: center;
+	margin-top: 50px;
+	transition: 0.5s;
+	opacity: 1;
+
+}
+
+.hidden{
+	display: none;
+	transition: 1s;
+	opacity: 0;
+}
+
+
+.choose{
+	margin-top: 70px;
+	text-align: center;
+}
+
+.char-choose{
+	background-color: #fff;
+	width: 30%;
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.char-stats{
+	width: 70%;
+}
+.char-choose-1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+.chosen{
+	background-color: #ab4b4b;
+	border-radius: 30px;
+	color: #fff;
+}
+
+.char-choose-1 p{
+	color: #333;
+	margin-left: 80px;
+	font-size: 17px;
+}
+
+.char-choose-1 h2{
+	margin-left: 20px;
+}
+
+.char-img{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	border-radius: 40px;
+}
+
+.all{
+	transition: 3s;
+	opacity: 1;
+}
+
